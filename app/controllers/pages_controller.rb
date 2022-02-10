@@ -7,13 +7,17 @@ class PagesController < ApplicationController
         render :projects
     end
 
+    def youtube
+        render :youtube
+    end
+
     def updates
         render :updates
     end
 
-    def resume
-        render :resume
-    end
+    #def resume
+    #    render: :resume
+    #end
 
     def contact
         render :contact
