@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   get 'home/index'
   resources :downloaders
-  resources :contact, only: [:new, :create]
+  resources :contacts, only: [:new, :create]
   root to: redirect('/home')
 
   get 'home', to: 'pages#home', as: 'home'
