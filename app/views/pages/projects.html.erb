@@ -1,9 +1,9 @@
-<h1>Jack Stevenson</h1>
+<h1><%= link_to 'Jack Stevenson', home_path%></h1>
 <h6><%= link_to 'Projects I was involved in', projects_path%></h6> 
 <h6><%= link_to 'My YouTube Account', youtube_path%></h6> 
 <h6><%= link_to 'Blog of Updates', updates_path%></h6> 
-<h6><%= link_to 'Download Resume', resume_path%></h6> 
-<h6><%= link_to 'Contact Me!', contact_path%></h6> 
+<h6><%= link_to 'Download Resume', home_resume_url%></h6>  
+<h6><%= link_to 'Contact Me!', contact_new_path%></h6> 
 
 <h4>
     This page is for all the projects I either made myself or worked with other people to make.
@@ -12,11 +12,18 @@
 <ul>
 </ul>
 
+<h4>
+Jack Sonic Project (name pending)
+</h4>
+
 <p>
     This is a fangame based off Sonic the Hedgehog that I'm currently developing.
     It's still in early development, but I do always update this repository whenever I hit a notable addition.
-    <%= link_to 'Link is here.',
+    <%= link_to 'Link is GitHub repository',
         'https://github.com/LightningRpper/JackSonicProject',
         target: '_blank'
     %>
 </p>
+
+<ul>
+</ul>

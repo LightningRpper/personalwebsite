@@ -1,24 +1,17 @@
-# README
+# Jack B. Stevenson Personal Website
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a website I am currently working on as a means to learn more about programming and show potential employers what I am capable of when it comes to jobs focusing on software development. It is also acting as a way to easily access resources that might be enticing to everyone, like links to projects I created/had involvement in creating, an easy way to access my YouTube account, or just an update blog showing development on a project. I am prioritizing functionality at the moment, but I do plan to stylize and clean up my work when everything works as intended.
 
-Things you may want to cover:
+Pages so far:
 
-* Ruby version
+ * Home Page: Introductory page meant to show the basis of what I can do an what I enjoy.
 
-* System dependencies
+ * Projects I was involved in: Easy access to GitHub repositories of note worthy projects I made or helped make.
 
-* Configuration
+ * My YouTube account: A link to my YouTube account and a way to promote videos I've made recently. Aiming to implement video players so they can be watched on this site.
 
-* Database creation
+ * Blog of Updates: A page where I give short blogs on videos, games, or certain softwares currently in development.
 
-* Database initialization
+ * Download Resume: A way to download a pdf file of my resume for potential employers. Looking to see if I can restrict the download to be read-only.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ * Contact Me: An easy method of contact. Meant to send emails to my central account. (Still under development.)

@@ -15,11 +15,5 @@ class PagesController < ApplicationController
         render :updates
     end
 
-    #def resume
-    #    render: :resume
-    #end
 
-    def contact
-        render :contact
-    end
 end

@@ -57,16 +57,18 @@ class DownloadersController < ApplicationController
     end
   end
 
-  def resume
-    pdf = WickedPdf.new.pdf_from_string(
-      render_to_string('resume', layout: false)
-    )
-    send_data(pdf,
-      filename: 'John (Jack) Stevenson Resume.pdf',
-      type: 'application/pdf',
-      disposition: 'attachment'
-    )
-  end
+  #def resume
+  #  pdf = WickedPdf.new.pdf_from_string(
+  #    render_to_string('resume', layout: false)
+  #  )
+  #  send_data(pdf,
+  #    filename: 'John (Jack) Stevenson Resume.pdf',
+  #    type: 'application/pdf',
+  #    disposition: 'attachment'
+  #  )
+  #end
+
+
 
   private
     # Use callbacks to share common setup or constraints between actions.
