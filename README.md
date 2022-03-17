@@ -12,6 +12,6 @@ Pages so far:
 
  * Blog of Updates: A page where I give short blogs on videos, games, or certain softwares currently in development.
 
- * Download Resume: A way to download a pdf file of my resume for potential employers. Looking to see if I can restrict the download to be read-only.
+ * Download Resume: A way to download a pdf file of my resume for potential employers. 
 
- * Contact Me: An easy method of contact. Meant to send emails to my central account. (Still under development.)
+ * Contact Me: An easy method of contact. Meant to send emails to my central account.
