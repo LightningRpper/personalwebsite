@@ -73,3 +73,14 @@ label {
 form, label  {
   color: white;
 }
+
+footer{
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  font-weight: bold;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 0.5px;
+  color: turquoise
+}

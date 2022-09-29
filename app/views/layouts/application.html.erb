@@ -26,12 +26,14 @@
       </ul>
     </nav>
 
+    <footer>Copyright (C) Jack Stevenson 2022. All Rights Reserved</footer>
 
     <main role="main" class="container">
     <div class="container">
       <br>
       <% flash.each do |key, message| %>
         <p class="alert alert-<%= key %>"><%= message %></p>
+
     </div>
     </main>
     <% end %>

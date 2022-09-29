@@ -1,18 +1,26 @@
-<div class="container">
+<div class="container mt-5">
   <h1>Contact Me!</h1>
-  <%= form_for @contact do |f| %>
-    <div class="col-md-6">
-      <%= f.label :name%></br>
-      <%= f.text_field  :name, required: true, class: "contact-form-text-area" %></br>
-
-      <%= f.label :email %></br>
-      <%= f.text_field :email, required: true, class: "contact-form-text-area" %></br>
-
-      <%= f.label :message %></br>
-      <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "contact-form-text-area", 
-            placeholder: "Type your message here!"%></br>
-
-      <%= f.submit 'Send Message', class: 'btn btn-primary' %>
+  <form class = "row g-3" action="https://formsubmit.co/2ae196d4a67d284836dc0ff571b2cfd2" method="POST">
+    <div class = "col-md-6">
+      <label for = "firstName" class="form-label">First Name</label>
+      <input type="text" class="form-control" name="name" id="firstName" required>
     </div>
-  <% end %>
+    <div class = "col-md-6">
+      <label for = "lastName" class="form-label">Last Name</label>
+      <input type="text" class="form-control" name="Last Name" id="lastName" required>
+    </div>
+    <div class = "col-md-8">
+      <label for = "email" class="form-label">Email</label>
+      <input type="text" class="form-control" name="Email" id="email" required>
+    </div>
+    <div class = "col-md-4">
+      <label for = "phone" class="form-label">Phone Number</label>
+      <input type="text" class="form-control" name="Phone" id="phone" required>
+    </div>
+    <div class = "form-group">
+      <label for = "message" class="form-label">Message here</label>
+      <input type= "text-area" class="form-control" name="Message" id="message" required>
+    </div>
+    <button type="send" class="btn btn-primary">Send Message</button>
+    </form>
 </div>
