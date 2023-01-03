@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   get 'home/index'
   resources :downloaders
-  resources :contacts, only: [:new, :create]
+  resources :contacts, only: [:new] #:create
   root to: redirect('/home')
 
   get 'home', to: 'pages#home', as: 'home'
@@ -12,6 +12,6 @@ Rails.application.routes.draw do
   get 'home/resume'
   #get 'contact', to: 'pages#contact', as: 'contact'
   get 'contact/new'
-  get 'contact/create'
+  #get 'contact/create'
 
 end
