@@ -3,7 +3,7 @@ class HomeController < ApplicationController
   end
   
   def resume
-    send_file("#{Rails.root}/public/JohnResumeforWebsite.pdf",
+    send_file("#{Rails.root}/public/JohnResumeForWebsite.pdf",
     filename: "John Stevenson Resume.pdf",
     type: "application/pdf")
   end

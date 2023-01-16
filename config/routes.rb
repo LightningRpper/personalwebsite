@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'projects', to: 'pages#projects', as: 'projects'
   get 'youtube', to: 'pages#youtube', as: 'youtube'
   get 'updates', to: 'pages#updates', as: 'updates'
+  get 'fundraisers', to: 'pages#fundraisers', as: 'fundraisers'
   get 'home/resume'
   #get 'contact', to: 'pages#contact', as: 'contact'
   get 'contact/new'

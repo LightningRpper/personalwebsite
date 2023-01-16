@@ -15,5 +15,9 @@ class PagesController < ApplicationController
         render :updates
     end
 
+    def fundraisers
+        render :fundraisers
+    end
+
 
 end
