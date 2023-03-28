@@ -11,6 +11,8 @@ Pages so far:
  * My YouTube account: A link to my YouTube account and a way to promote videos I've made recently. Aiming to implement video players so they can be watched on this site.
 
  * Blog of Updates: A page where I give short blogs on videos, games, or certain softwares currently in development.
+ 
+ * Fundraisers: A page where I promote all the fundraisers I am currently participating in. I heavily appreciate the support!
 
  * Download Resume: A way to download a pdf file of my resume for potential employers. 
 
