@@ -12,6 +12,8 @@ Pages so far:
 
  * Blog of Updates: A page where I give short blogs on videos, games, or certain softwares currently in development.
 
+ * Fundraisers: A page where I promote all the fundraisers I am currently participating in. I heavily appreciate the support!
+
  * Download Resume: A way to download a pdf file of my resume for potential employers. 
 
  * Contact Me: An easy method of contact. Meant to send emails to my central account.
